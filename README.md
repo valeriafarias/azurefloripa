@@ -2,7 +2,7 @@
 Apresentação 23/06/2021
 
 
-# Para sincronizar o Active Directory local é nessário instalar o Azure Ad Connect 
+# Para sincronizar o Active Directory local é necessário instalar o Azure Ad Connect 
 https://docs.microsoft.com/pt-br/azure/active-directory/hybrid/how-to-connect-install-express
 
 
