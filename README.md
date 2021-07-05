@@ -23,7 +23,7 @@ Get-AzStorageAccountKey -ResourceGroupName "RG-FLORIPA" -AccountName "stofloripa
 
 
 ## Mapear as unidades de rede
-net use G: \\stofloripa.file.core.windows.net\compartilhamento /user:Azure\stofloripa <chave>
+net use G: \\stofloripa.file.core.windows.net\compartilhamento /user:Azure\stofloripa *chave*
 
 ## Fazer a cópia dos arquivos do file server
 robocopy \\SRV-FILESERVER\C$\Todos G:\Todos /E /TEE /ETA /SEC /MT:32 /MIR /R:0 /W:0 /COPYALL /B /XD 
